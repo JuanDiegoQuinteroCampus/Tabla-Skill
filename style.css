@@ -1,0 +1,14 @@
+table, th, td{
+    border:1px solid black;
+    color: white;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    background-color: blue;
+}
+tr{
+    background-color:black;
+}

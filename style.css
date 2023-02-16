@@ -1,49 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syloti+Nagri&family=Seaweed+Script&display=swap');
+
+
+.prueba3{
+    font-family: 'Seaweed Script', cursive;
+}
+/* font-style: esta propiedad define el estilo del texto.
+font-variant: la propiedad font-variant define la variante de la letra. 
+font-weight: esta propiedad define el peso de la letra, es decir, cómo de delgada o gruesa se verá la tipografía. 
+font-size: esta propiedad define el tamaño de la fuente.
+font-family: esta propiedad representa la familia de la fuente, es decir, la tipografía que estamos usando en el elemento. 
+font: esta propiedad se usa como una abreviatura de todas las anteriores. 
+
+ */
+
+
+
+
+
+
+
 table, th, td{
     border:1px solid black;
     
     
 }
-ul {
-
-    /* background-color
-
-    ver color.
-background-image
-
-    ver image.
-background-repeat
-
-    ver repeat.
-background-attachment
-
-    ver background-attachment.
-background-position
-
-    ver position.
- */
-}
-
-.prueba2{
-    background-color: black;
-}
-.prueba3{
-    background-image: url(https://static.doofinder.com/main-files/uploads/2017/08/Prueba-social-o-social-proof.jpg);
-    width: 50%;
-    padding: 10%;
-}
-
-/* background:fondo
-background-attachment: determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.
-background-blend-mode: describe cómo las imágenes de fondo y el color de fondo del elemento deben mezclar entre sí.
-background-clip:especifica si el fondo de un elemento, ya sea el color o imagen, se extiende por debajo su borde.
-background-color:color de fondo
-background-image:imagen de fondo
-background-origin:especifica el área de origen de un fondo o imagen en determinada caja.
-background-position:calcular la posicion de un fondo
-background-position-x
-(en-US)
-background-position-y
-(en-US)
-background-repeat: las veces que aparece el fondo
-background-size: tamaño del fondo
- */

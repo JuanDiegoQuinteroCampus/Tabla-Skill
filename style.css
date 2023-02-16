@@ -1,26 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syloti+Nagri&family=Seaweed+Script&display=swap');
-
-
-.prueba3{
-    font-family: 'Seaweed Script', cursive;
-}
-/* font-style: esta propiedad define el estilo del texto.
-font-variant: la propiedad font-variant define la variante de la letra. 
-font-weight: esta propiedad define el peso de la letra, es decir, cómo de delgada o gruesa se verá la tipografía. 
-font-size: esta propiedad define el tamaño de la fuente.
-font-family: esta propiedad representa la familia de la fuente, es decir, la tipografía que estamos usando en el elemento. 
-font: esta propiedad se usa como una abreviatura de todas las anteriores. 
-
- */
-
-
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+Syloti+Nagri&family=Seaweed+Script&display=swap');
 table, th, td{
-    border:1px solid black;
-    
-    
+    border:1px solid white;
+    color: white;
+    border-collapse: collapse;
+    padding: 13px;
+    font-weight: bolder;
+    border-width: 5px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/278/160/small/polygon-geometric-design-abstract-technology-concept-abstract-blue-light-background-vector.jpg);
+}
+th{
+    background-color: blue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+tr{
+    background-color:rgba(0, 0, 0, 0.301);
+}
+.nombre{
+    background-color: aqua;
+    color: black;
+}
+.proyectos{
+    background-color: aqua;
+    color: black;
+}
+.column{
+    background-color:rgb(30, 229, 255);
+    color: black;
+    font-weight: bolder;
 }

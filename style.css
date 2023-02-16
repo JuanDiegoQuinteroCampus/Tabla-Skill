@@ -1,32 +1,29 @@
 table, th, td{
     border:1px solid black;
-    color: white;
-    border-collapse: collapse;
-    padding: 13px;
-    font-weight: bolder;
-}
+    /* Valores de palabras clave */
 
-table{
-    width: 100%;
-    text-align: center;
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/278/160/small/polygon-geometric-design-abstract-technology-concept-abstract-blue-light-background-vector.jpg);
+color: currentcolor;
+
+    
 }
-th{
-    background-color: blue;
+.xd{
+    /* Valores <named-color> */
+color: red;
 }
-tr{
-    background-color:rgba(0, 0, 0, 0.301);
+.prueba2{
+    /* Valores <hex-color> */
+color: #090;
 }
-.nombre{
-    background-color: aqua;
-    color: black;
+.prueba3{
+    /* Valores <rgb()> */
+color: rgb(34, 12, 64, 0.6);
 }
-.proyectos{
-    background-color: aqua;
-    color: black;
+.prueba4{
+    /* Valores <hsl()> */
+color: hsl(30, 100%, 50%, 0.6);
 }
-.column{
-    background-color:rgb(30, 229, 255);
-    color: black;
-    font-weight: bolder;
+.prueba5{
+    /* Valores Globales */
+color: inherit;
 }
+/* La propiedad color esta especificada como un solo un valor de <color> */

@@ -1,14 +1,32 @@
 table, th, td{
     border:1px solid black;
     color: white;
+    border-collapse: collapse;
+    padding: 13px;
+    font-weight: bolder;
 }
+
 table{
     width: 100%;
     text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/278/160/small/polygon-geometric-design-abstract-technology-concept-abstract-blue-light-background-vector.jpg);
 }
 th{
     background-color: blue;
 }
 tr{
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.301);
+}
+.nombre{
+    background-color: aqua;
+    color: black;
+}
+.proyectos{
+    background-color: aqua;
+    color: black;
+}
+.column{
+    background-color:rgb(30, 229, 255);
+    color: black;
+    font-weight: bolder;
 }

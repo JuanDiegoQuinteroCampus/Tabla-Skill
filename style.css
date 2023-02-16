@@ -1,99 +1,49 @@
 table, th, td{
     border:1px solid black;
-    /* Los rellenos va de la mano con los bordes,
-    crear diseños de compaginación más complejos con una comprensión*/
+    
     
 }
 ul {
-    border: 2px solid rebeccapurple;
-    padding: .5em;
-  }
-.xd{
-   border-radius: 50%;
-   /* hay diferentes tipos de bordes que puedes manejrar ya sea para crear lineas inferiores,superiores,derecha o izquierda. hay 50-70*/
-   /* border
-   border-block
-   border-block-color
-   border-block-end
-   border-block-end-color
-   border-block-end-style
-   border-block-end-width
-   border-block-start
-   border-block-start-color
-   border-block-start-style
-   border-block-start-width
-   border-block-style
-   border-block-width
-   border-bottom
-   border-bottom-color
-   border-bottom-left-radius
-   border-bottom-right-radius
-   border-bottom-style
-   border-bottom-width
-   border-collapse
-   border-color
-   border-end-end-radius
-   border-end-start-radius
-   border-image
-   border-image-outset
-   border-image-repeat
-   border-image-slice
-   border-image-source
-   (en-US)
-   border-image-width
-   (en-US)
-   border-inline
-   border-inline-color
-   border-inline-end
-   border-inline-end-color
-   border-inline-end-style
-   border-inline-end-width
-   border-inline-start
-   border-inline-start-color
-   border-inline-start-style
-   border-inline-start-width
-   border-inline-style
-   border-inline-width
-   border-left
-   border-left-color
-   border-left-style
-   (en-US)
-   border-left-width
-   (en-US)
-   border-radius
-   (en-US)
-   border-right
-   border-right-color
-   (en-US)
-   border-right-style
-   (en-US)
-   border-right-width
-   (en-US)
-   border-spacing
-   border-start-end-radius
-   border-start-start-radius
-   border-style
-   border-top
-   border-top-color
-   border-top-left-radius
-   border-top-right-radius
-   border-top-style
-   (en-US)
-   border-top-width
-   (en-US)
-   border-widthus */
-   
-}
-.prueba2{
-    
-}
-.prueba3{
-    
-}
-.prueba4{
-    
-}
-.prueba5{
-   
+
+    /* background-color
+
+    ver color.
+background-image
+
+    ver image.
+background-repeat
+
+    ver repeat.
+background-attachment
+
+    ver background-attachment.
+background-position
+
+    ver position.
+ */
 }
 
+.prueba2{
+    background-color: black;
+}
+.prueba3{
+    background-image: url(https://static.doofinder.com/main-files/uploads/2017/08/Prueba-social-o-social-proof.jpg);
+    width: 50%;
+    padding: 10%;
+}
+
+/* background:fondo
+background-attachment: determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.
+background-blend-mode: describe cómo las imágenes de fondo y el color de fondo del elemento deben mezclar entre sí.
+background-clip:especifica si el fondo de un elemento, ya sea el color o imagen, se extiende por debajo su borde.
+background-color:color de fondo
+background-image:imagen de fondo
+background-origin:especifica el área de origen de un fondo o imagen en determinada caja.
+background-position:calcular la posicion de un fondo
+background-position-x
+(en-US)
+background-position-y
+(en-US)
+background-repeat: las veces que aparece el fondo
+background-size: tamaño del fondo
+ */
